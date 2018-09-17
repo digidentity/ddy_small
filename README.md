@@ -11,6 +11,26 @@ These are the steps:
 A user can also sign in to see their account  
 A user can also logout
 
+## Setup the environment
+
+### Windows
+
+Install Ruby via https://rubyinstaller.org/downloads/. Choose "Ruby+Devkit 2.4.4-2".
+
+### Mac
+
+Check to see if you have Ruby installed: `ruby -v`. If you don't have Ruby installed but you do have Homebrew available, run `brew install ruby`.
+
+### Linux
+
+Check to see if you have Ruby installed: `ruby -v`. If not, run `sudo apt-get install ruby-full`.
+
+### Get the app running
+
+1. Install [Bundler](https://bundler.io/): `gem install bundler`.
+2. Clone the ddy_small repository, cd into the repo and run `bundle install`.
+3. Start the server via `bundle exec rails s`.
+
 ## Write cucumber tests
 
 * Setup cucumber and write some scenarios to test the registration and sign in.  
