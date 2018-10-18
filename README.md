@@ -29,7 +29,8 @@ Check to see if you have Ruby installed: `ruby -v`. If not, run `sudo apt-get in
 
 1. Install [Bundler](https://bundler.io/): `gem install bundler`.
 2. Clone the ddy_small repository, cd into the repo and run `bundle install`.
-3. Start the server via `bundle exec rails s`.
+3. Setup the database: `bundle exec rails db:setup`
+4. Start the server via `bundle exec rails s`.
 
 ## Write cucumber tests
 
