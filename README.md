@@ -34,6 +34,16 @@ Check to see if you have Ruby installed: `ruby -v`. If not, run `sudo apt-get in
 
 ## Write cucumber tests
 
-* Setup cucumber and write some scenarios to test the registration and sign in.  
-* There may be some bugs present in the code, so you may create scenarios that are red, but should be green after bug fixing.  
+* Setup cucumber 
+* Write some scenarios to test the registration and sign in, using Gherkin.
+* Identify the scenarios you would include in a regression suite.
+* Automate some of these scenarios using Ruby.
+
+* There may be some bugs present in the code, so you may create scenarios that are red, but should be green after bug fixing. 
 * You are not required to fix the bugs.  
+
+## Write bug reports
+
+* Enumerate issues that you found.
+* Write bug reports for some of the issues that you found (at least a couple).
+* Specify the priority of these issues.
